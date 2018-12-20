@@ -78,6 +78,7 @@ PLUGINS = OrderedDict()  # Ordered dict so can terminate in order initiated
 DIALOGS = {}
 WINDOWS = {}
 SETTINGS = {}
+KEYBOARDS = {}
 
 
 def main():
