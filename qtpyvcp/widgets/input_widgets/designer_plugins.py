@@ -23,9 +23,6 @@ class gCodeEditPlugin(_DesignerPlugin):
     def pluginClass(self):
         return gCodeEdit
 
-    def toolTip(self):
-        return "QPlainTextEdit g Code Editor"
-
 from recent_file_combobox import RecentFileComboBox
 class RecentFileComboBoxPlugin(_DesignerPlugin):
     def pluginClass(self):
